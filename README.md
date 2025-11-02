@@ -10,69 +10,105 @@
     <br/>
     Currently pursuing a Dual Degree from **Scaler School of Technology** and **BITS Pilani**.
   </p>
+</div>
 
-  <p align="center">
-    <a href="https://www.linkedin.com/in/kunal-kumar-45284523a/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="mailto:kunalsain0324@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-    </a>
-  </p>
+<div align="center">
+  <a href="https://www.linkedin.com/in/kunal-kumar-45284523a/" target="_blank">
+    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/linkedin-logo.webp" alt="LinkedIn" width="30"/>
+  </a>
+  <a href="mailto:kunalsain0324@gmail.com">
+    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/gmail-logo.webp" alt="Gmail" width="30"/>
+  </a>
+  <a href="https://codeforces.com/profile/sainKunal">
+    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/codeforces-logo.webp" alt="Codeforces" width="30"/>
+  </a>
+  <a href="https://www.codechef.com/users/YOUR_USERNAME_HERE">
+    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/codechef-logo.webp" alt="CodeChef" width="30"/>
+  </a>
 </div>
 
 ---
 
-### 🚀 About Me
+### 🛠️ My Tech Stack
+<p align="center">
+  A list of my favorite tools and technologies.
+</p>
 
-- 🔭 I’m currently building full-stack applications with the **MERN stack**.
-- 🌱 I’m actively learning about **Machine Learning** and **Spring Boot**.
-- 👯 I’m looking to collaborate on **open-source projects** (I'm a 2x Hacktoberfest contributor!).
-- 💬 Ask me about **Java, C++, JavaScript, React, or Node.js**.
-- ⚡ Fun fact: I have experience in **event management and security** from organizing college fests and tech summits.
+<details>
+  <summary><b>Languages</b></summary>
+  <br/>
+  <p align="center">
+    <a href="#"><img src="assets/icons/java.svg" alt="Java" width="40"/></a>
+    <a href="#"><img src="assets/icons/cplusplus.svg" alt="C++" width="40"/></a>
+    <a href="#"><img src="assets/icons/javascript.svg" alt="JavaScript" width="40"/></a>
+    <a href="#"><img src="assets/icons/python.svg" alt="Python" width="40"/></a>
+    <a href="#"><img src="assets/icons/sql.svg" alt="SQL" width="40"/></a>
+    <a href="#"><img src="assets/icons/html5.svg" alt="HTML" width="40"/></a>
+    <a href="#"><img src="assets/icons/css3.svg" alt="CSS" width="40"/></a>
+  </p>
+</details>
+
+<details>
+  <summary><b>Frameworks & Libraries</b></summary>
+  <br/>
+  <p align="center">
+    <a href="#"><img src="assets/icons/react.svg" alt="React" width="40"/></a>
+    <a href="#"><img src="assets/icons/nodejs.svg" alt="Node.js" width="40"/></a>
+    <a href="#"><img src="assets/icons/express.svg" alt="Express.js" width="40"/></a>
+    <a href="#"><img src="assets/icons/spring.svg" alt="Spring Boot" width="40"/></a>
+    <a href="#"><img src="assets/icons/numpy.svg" alt="NumPy" width="40"/></a>
+  </p>
+</details>
+
+<details>
+  <summary><b>Databases</b></summary>
+  <br/>
+  <p align="center">
+    <a href="#"><img src="assets/icons/mongodb.svg" alt="MongoDB" width="40"/></a>
+    <a href="#"><img src="assets/icons/mysql.svg" alt="MySQL" width="40"/></a>
+  </p>
+</details>
+
+<details>
+  <summary><b>Tools & Platforms</b></summary>
+  <br/>
+  <p align="center">
+    <a href="#"><img src="assets/icons/git.svg" alt="Git" width="40"/></a>
+    <a href="#"><img src="assets/icons/github.svg" alt="GitHub" width="40"/></a>
+    <a href="#"><img src="assets/icons/vscode.svg" alt="VS Code" width="40"/></a>
+    <a href="#"><img src="assets/icons/docker.svg" alt="Docker" width="40"/></a>
+    <a href="#"><img src="assets/icons/postman.svg" alt="Postman" width="40"/></a>
+  </p>
+</details>
 
 ---
 
-### 🛠️ My Tech Stack
-
-These are the languages, frameworks, and tools I'm proficient in:
+### 👾 My GitHub Activity
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,cplusplus,javascript,python,react,nodejs,express,mongodb,spring,sql,html,css,numpy,git,github,vscode" />
-  </a>
+  <i>This Pac-Man graph is updated daily with my latest contributions!</i>
+  <br/>
+  <img src="profile-pacman.svg" alt="My GitHub Contributions Pac-Man Graph" />
 </p>
 
 ---
 
-### 📊 My GitHub Stats
-
-<p align="center">
+### <details>
+ <summary>📊 **Additional GitHub Stats (Click to View)**</summary>
+ <br/>
+ <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sainKunal&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="sainKunal's GitHub Stats"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sainKunal&layout=compact&theme=radical" alt="sainKunal's Top Languages"/>
-</p>
+ </p>
+ <br/>
+</details>
 
 ---
 
-### 🏆 My Competitive Programming Profiles
-
+### 🐍 Fun Corner: Snake Game
 <p align="center">
-  <a href="https://www.codechef.com/users/YOUR_USERNAME_HERE">
-    <img src="https://img.shields.io/badge/CodeChef-1338-blue?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
-  </a>
-  <a href="https://codeforces.com/profile/sainKunal">
-    <img src="https://img.shields.io/badge/Codeforces-869-red?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
-  </a>
+  Watch my contributions get eaten by a snake! This is generated by a GitHub Action.
+  <br/>
+  <img src="github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
-
-*(**Action Needed:** Please update the CodeChef link with your correct username!)*
-
----
-
-### 💻 Key Projects
-
-- 💬 **Full-Stack Chat Application (MERN)**: A real-time chat app with user authentication and message handling.
-- 📋 **Job Tracker Project (React)**: A clean, component-based UI for managing job application statuses.
-- 🎨 **Agency Website Clone**: A visually appealing clone built with Locomotive.js for smooth animations.
-- 🐦 **Reversed Flappy Bird**: A hackathon project built with a team, demonstrating rapid prototyping and teamwork.
