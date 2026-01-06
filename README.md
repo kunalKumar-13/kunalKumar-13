@@ -6,12 +6,10 @@
 <!-- Animated Intro -->
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1200&center=true&vCenter=true&width=750&lines=Frontend+Engineering+%7C+Clean+UI+%7C+Strong+Fundamentals" />
 
-<br/><br/>
-
-📍 **Fazilka, India**  
-🎓 **Scaler School of Technology & BITS Pilani**
-
 <br/>
+
+📍 **Bengaluru, India**  
+🎓 **Scaler School of Technology & BITS Pilani**
 
 <a href="https://www.linkedin.com/in/sainkunal">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
@@ -33,33 +31,13 @@
 
 ---
 
-
-
-## 🎨 Frontend Stack
+## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,react" />
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,c,cpp,java,python,nodejs,express,mysql,mongodb,git,github,linux,postman,vscode" />
 </div>
 
 ---
-
-## 🧠 Core Skills
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,nodejs,express,mysql,mongodb" />
-</div>
-
----
-
-## ⚙️ Tools
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,postman,vscode" />
-</div>
-
----
-
-
 
 <div align="center">
 
