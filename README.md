@@ -35,8 +35,6 @@
   <img src="https://skillicons.dev/icons?i=html,css,javascript,react,c,cpp,java,python,nodejs,express,mysql,mongodb,git,github,linux,postman,vscode" />
 </div>
 
----
-
 <div align="center">
 
 **Frontend-first · Clean UI · Strong fundamentals**
