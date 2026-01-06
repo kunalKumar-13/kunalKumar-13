@@ -8,6 +8,13 @@
 
 <br/><br/>
 
+<div align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kunalKumar-13&show_icons=true&disable_animations=false&theme=transparent&hide_border=false" height="130" alt="stats graph"  />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=kunalKumar-13&theme=transparent&hide_border=false" height="130" alt="GitHub Streak" />
+</div>
+
+<br/>
+
 📍 **Bengaluru, India**  
 🎓 **Scaler School of Technology & BITS Pilani**
 
