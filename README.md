@@ -18,19 +18,12 @@
 📍 **Bengaluru, India**  
 🎓 **Scaler School of Technology & BITS Pilani**
 
-<a href="https://www.linkedin.com/in/sainkunal">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="mailto:kunalsain0324@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://codeforces.com/profile/sainKunal">
-  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat&logo=codeforces&logoColor=white"/>
-</a>
+<br>
 
-<br/>
+  <a href="https://www.linkedin.com/in/sainkunal" target="blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LinkedIn/linkedin2.svg" height="25" alt="instagram logo"/></a>
+  <a href="mailto:kunalsain0324@gmail.com" target="blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Gmail/gmail2.svg" height="25" alt="leetcode logo"  /></a>
+
+&nbsp;
 
 </div>
 
@@ -53,3 +46,6 @@
 <div align="right">
 <img src="https://komarev.com/ghpvc/?username=kunalKumar-13&label=Profile%20Views&color=6c757d&style=flat"/>
 </div>
+
+
+<!-- Kunal Bhosrika -->
