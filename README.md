@@ -37,6 +37,8 @@
 
 <div align="center">
 
+---
+
 **Frontend-first · Clean UI · Strong fundamentals**
 
 </div>
