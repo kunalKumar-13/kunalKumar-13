@@ -1,114 +1,93 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-  
-  # Hi, I'm Kunal Kumar 👋
-  
-  ### A proactive Computer Science Student from Fazilka, India.
-  
-  <p align="center">
-    Eager to explore, learn, and experience new challenges while applying and expanding my technical skills.
-    <br/>
-    Currently pursuing a Dual Degree from **Scaler School of Technology** and **BITS Pilani**.
-  </p>
+<div align="center">
+
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&center=true&vCenter=true&width=750&lines=Hi%2C+I%E2%80%99m+Kunal+Kumar+%F0%9F%91%8B;Computer+Science+Student;Software+Developer+%7C+Problem+Solver" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="420" alt="Developer coding animation"/>
+
+<br/>
+<br/>
+
+📍 **Fazilka, India**  
+🎓 **Dual Degree – Scaler School of Technology & BITS Pilani**
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=kunalKumar-13&label=Profile%20Views&color=0e75b6&style=flat" alt="visitor counter"/>
+
 </div>
+
+---
+
+## 👨‍💻 About Me
+
+I’m a **Computer Science student** driven by a deep interest in building robust software systems and solving challenging problems.  
+I enjoy writing clean, efficient code and continuously improving through **problem-solving, competitive programming, and real-world projects**.
+
+- 💡 Strong foundations in **Data Structures & Algorithms**
+- 🧠 Curious about **software engineering and scalable systems**
+- 🚀 Consistent learner with a growth-focused mindset
+
+---
+
+## 🌐 Connect With Me
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/kunal-kumar-45284523a/" target="_blank">
-    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/linkedin-logo.webp" alt="LinkedIn" width="30"/>
-  </a>
-  <a href="mailto:kunalsain0324@gmail.com">
-    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/gmail-logo.webp" alt="Gmail" width="30"/>
-  </a>
-  <a href="https://codeforces.com/profile/sainKunal">
-    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/codeforces-logo.webp" alt="Codeforces" width="30"/>
-  </a>
-  <a href="https://www.codechef.com/users/YOUR_USERNAME_HERE">
-    <img src="https-pro-files-cdn.s3.amazonaws.com/s3fs-public/styles/scalefit_medium/public/2023-01/codechef-logo.webp" alt="CodeChef" width="30"/>
-  </a>
+
+<a href="https://www.linkedin.com/in/sainkunal">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;
+<a href="mailto:kunalsain0324@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="Gmail"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://codeforces.com/profile/sainKunal">
+  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-codeforces-programming-competitions-and-contests-logo-shadow-tal-revivo.png" height="45" alt="Codeforces"/>
+</a>
+
 </div>
 
 ---
 
-### 🛠️ My Tech Stack
-<p align="center">
-  A list of my favorite tools and technologies.
-</p>
+## 🛠️ Tech Stack
 
-<details>
-  <summary><b>Languages</b></summary>
-  <br/>
-  <p align="center">
-    <a href="#"><img src="assets/icons/java.svg" alt="Java" width="40"/></a>
-    <a href="#"><img src="assets/icons/cplusplus.svg" alt="C++" width="40"/></a>
-    <a href="#"><img src="assets/icons/javascript.svg" alt="JavaScript" width="40"/></a>
-    <a href="#"><img src="assets/icons/python.svg" alt="Python" width="40"/></a>
-    <a href="#"><img src="assets/icons/sql.svg" alt="SQL" width="40"/></a>
-    <a href="#"><img src="assets/icons/html5.svg" alt="HTML" width="40"/></a>
-    <a href="#"><img src="assets/icons/css3.svg" alt="CSS" width="40"/></a>
-  </p>
-</details>
+### 💻 Languages
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript" />
 
-<details>
-  <summary><b>Frameworks & Libraries</b></summary>
-  <br/>
-  <p align="center">
-    <a href="#"><img src="assets/icons/react.svg" alt="React" width="40"/></a>
-    <a href="#"><img src="assets/icons/nodejs.svg" alt="Node.js" width="40"/></a>
-    <a href="#"><img src="assets/icons/express.svg" alt="Express.js" width="40"/></a>
-    <a href="#"><img src="assets/icons/spring.svg" alt="Spring Boot" width="40"/></a>
-    <a href="#"><img src="assets/icons/numpy.svg" alt="NumPy" width="40"/></a>
-  </p>
-</details>
+### 🌐 Frameworks & Libraries
+<img src="https://skillicons.dev/icons?i=react,nodejs,express" />
 
-<details>
-  <summary><b>Databases</b></summary>
-  <br/>
-  <p align="center">
-    <a href="#"><img src="assets/icons/mongodb.svg" alt="MongoDB" width="40"/></a>
-    <a href="#"><img src="assets/icons/mysql.svg" alt="MySQL" width="40"/></a>
-  </p>
-</details>
+### 🗄️ Databases
+<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 
-<details>
-  <summary><b>Tools & Platforms</b></summary>
-  <br/>
-  <p align="center">
-    <a href="#"><img src="assets/icons/git.svg" alt="Git" width="40"/></a>
-    <a href="#"><img src="assets/icons/github.svg" alt="GitHub" width="40"/></a>
-    <a href="#"><img src="assets/icons/vscode.svg" alt="VS Code" width="40"/></a>
-    <a href="#"><img src="assets/icons/docker.svg" alt="Docker" width="40"/></a>
-    <a href="#"><img src="assets/icons/postman.svg" alt="Postman" width="40"/></a>
-  </p>
-</details>
+### ⚙️ Tools & Platforms
+<img src="https://skillicons.dev/icons?i=git,github,linux,postman,vscode" />
 
 ---
 
-### 👾 My GitHub Activity
+## 📊 GitHub Stats
 
-<p align="center">
-  <i>This Pac-Man graph is updated daily with my latest contributions!</i>
-  <br/>
-  <img src="profile-pacman.svg" alt="My GitHub Contributions Pac-Man Graph" />
-</p>
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=kunalKumar-13&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
 
-### <details>
- <summary>📊 **Additional GitHub Stats (Click to View)**</summary>
- <br/>
- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sainKunal&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="sainKunal's GitHub Stats"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sainKunal&layout=compact&theme=radical" alt="sainKunal's Top Languages"/>
- </p>
- <br/>
-</details>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+
+</div>
 
 ---
 
-### 🐍 Fun Corner: Snake Game
-<p align="center">
-  Watch my contributions get eaten by a snake! This is generated by a GitHub Action.
-  <br/>
-  <img src="github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
+## 💬 Personal Motto
+
+> *“Strong fundamentals, consistent effort, and clean code — that’s how great software is built.”*
+
+---
+
+<div align="center">
+
+✨ **Always learning. Always building.** ✨
+
+</div>
