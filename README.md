@@ -6,7 +6,7 @@
 <!-- Animated Intro -->
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1200&center=true&vCenter=true&width=750&lines=Frontend+Engineering+%7C+Clean+UI+%7C+Strong+Fundamentals" />
 
-<br/>
+<br/><br/>
 
 📍 **Bengaluru, India**  
 🎓 **Scaler School of Technology & BITS Pilani**
@@ -23,9 +23,7 @@
   <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat&logo=codeforces&logoColor=white"/>
 </a>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=kunalKumar-13&label=Profile%20Views&color=6c757d&style=flat"/>
+<br/>
 
 </div>
 
@@ -43,4 +41,8 @@
 
 **Frontend-first · Clean UI · Strong fundamentals**
 
+</div>
+
+<div align="right">
+<img src="https://komarev.com/ghpvc/?username=kunalKumar-13&label=Profile%20Views&color=6c757d&style=flat"/>
 </div>
