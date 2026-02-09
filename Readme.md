@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hello👋%20I%20am%20Kunal%20Kumar!&section=header&animation=twinkling&fontAlign=50&fontAlignY=30&fontSize=60&desc=Frontend-Focused%20Software%20Developer%20%7C%20CS%20Student&descAlignY=56&descSize=27"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hello👋%20I%20am%20Kunal%20Kumar!&section=header&animation=twinkling&fontAlign=50&fontAlignY=30&fontSize=60&desc=Fullstack-Focused%20Software%20Developer%20%7C%20CS%20Student&descAlignY=56&descSize=27"/>
 </p>
 
 <p align="right">
@@ -52,6 +52,13 @@
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,git,github,linux,postman,vscode">
 </p>
 
+<h6 align="center">DevOps, Cloud & Tools</h6>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,cloudflare,git&theme=dark">
+</p>
+
+
 <h6 align="center">Connect With Me</h6>
 
 <p align="center">
@@ -76,3 +83,4 @@
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&section=footer"/>
+
