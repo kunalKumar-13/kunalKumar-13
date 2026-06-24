@@ -40,11 +40,11 @@
 <p align="center"><b>Frameworks &amp; Libraries</b><br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,tailwind" /></p>
 
-<p align="center"><b>AI / Agents</b><br/>
-LangChain · LangGraph · Playwright · Qdrant · HuggingFace · Groq</p>
+<p align="center"><b>Databases</b><br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis" /></p>
 
-<p align="center"><b>Databases, DevOps &amp; Tools</b><br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis,docker,kubernetes,git,github,linux,postman,vscode,vercel" /></p>
+<p align="center"><b>DevOps &amp; Tools</b><br/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,linux,postman,vscode,vercel" /></p>
 
 <br/>
 
