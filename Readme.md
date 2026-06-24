@@ -51,7 +51,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kunalKumar-13&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=kunalKumar-13&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages"/>
+  <img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages"/>
 </p>
 
 <br/>
