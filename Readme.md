@@ -18,7 +18,7 @@
 <!-- Removed ghost image as requested -->
 
 - 🎓 CS Student at **Scaler School of Technology & BITS Pilani**
-- 📍 Bengaluru, India  
+- 📍 Bengaluru, India  ( Intern At Emergent (YC S24)
 - 💻 Frontend-focused developer with strong fundamentals  
 - 🌱 Currently improving **React, DSA & System Design**  
 - 📫 Reach me at **kunalsain0324@gmail.com**
