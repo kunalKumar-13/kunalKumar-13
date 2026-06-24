@@ -50,17 +50,17 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kunalKumar-13&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
-  &nbsp;&nbsp;
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages"/>
-</div>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kunalKumar-13&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
+</p>
 
-<br/>
+<p align="center">
+  <img height="165" src="https://streak-stats.demolab.com/?user=kunalKumar-13&theme=transparent&hide_border=true" alt="GitHub streak"/>
+</p>
 
-<div align="center">
-  <img height="175" src="https://streak-stats.demolab.com/?user=kunalKumar-13&theme=transparent&hide_border=true" alt="GitHub streak"/>
-</div>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top languages"/>
+</p>
 
 <br/>
 
