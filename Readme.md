@@ -64,10 +64,6 @@
 </div>
 
 <div align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=kunalKumar-13&theme=tokyonight&hide_border=true&border_radius=12&disable_animations=true&fire=bf91f3&ring=bf91f3&currStreakLabel=70a5fd&sideNums=38bdae&currStreakNum=c0caf5&sideLabels=70a5fd&dates=7982a9" alt="Kunal Kumar's GitHub streak"/>
-</div>
-
-<div align="center">
   <img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=kunalKumar-13&custom_title=Contribution%20Graph&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=c0caf5&area=true&area_color=bf91f3&title_color=bf91f3&hide_border=true" alt="Kunal Kumar's contribution graph"/>
 </div>
 
