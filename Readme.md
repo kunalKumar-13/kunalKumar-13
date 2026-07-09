@@ -51,12 +51,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="182" src="https://github-readme-stats-fast.vercel.app/api?username=kunalKumar-13&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=12&rank_icon=github&title_color=bf91f3&icon_color=38bdae&text_color=c0caf5" alt="Kunal Kumar's GitHub stats"/>
-  <img height="182" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=10&title_color=bf91f3&text_color=c0caf5" alt="Kunal Kumar's most used languages"/>
+  <img height="182" src="https://github-readme-stats-fast.vercel.app/api?username=kunalKumar-13&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=12&rank_icon=github&title_color=bf91f3&icon_color=38bdae&text_color=c0caf5&v=2" alt="Kunal Kumar's GitHub stats"/>
+  <img height="182" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kunalKumar-13&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=10&title_color=bf91f3&text_color=c0caf5&v=2" alt="Kunal Kumar's most used languages"/>
 </div>
 
 <div align="center">
-  <img height="182" src="https://streak-stats.demolab.com?user=kunalKumar-13&theme=tokyonight&hide_border=true&border_radius=12&fire=bf91f3&ring=bf91f3&currStreakLabel=70a5fd&sideNums=38bdae&currStreakNum=c0caf5&sideLabels=70a5fd&dates=7982a9" alt="Kunal Kumar's GitHub streak"/>
+  <img height="182" src="https://streak-stats.demolab.com?user=kunalKumar-13&theme=tokyonight&hide_border=true&border_radius=12&fire=bf91f3&ring=bf91f3&currStreakLabel=70a5fd&sideNums=38bdae&currStreakNum=c0caf5&sideLabels=70a5fd&dates=7982a9&v=2" alt="Kunal Kumar's GitHub streak"/>
 </div>
 
 <div align="center">
