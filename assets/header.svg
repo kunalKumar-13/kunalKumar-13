@@ -5,7 +5,7 @@
       <stop offset="1" stop-color="#bb9af7"/>
     </linearGradient>
     <clipPath id="type"><rect x="46" y="120" width="464" height="30">
-      <animate attributeName="width" values="0;464;464;0" keyTimes="0;0.4;0.82;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;464" keyTimes="0;1" dur="2.4s" begin="0.3s" fill="freeze"/>
     </rect></clipPath>
   </defs>
 
@@ -21,7 +21,7 @@
   <!-- typewriter tagline (base = full so it shows even if animation is skipped) -->
   <text x="50" y="140" font-size="19" fill="#a9b1d6" clip-path="url(#type)">Full-Stack Developer · AI &amp; LLM Engineer</text>
   <rect x="506" y="123" width="10" height="23" fill="#7aa2f7">
-    <animate attributeName="x" values="50;506;506;50" keyTimes="0;0.4;0.82;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="50;506" keyTimes="0;1" dur="2.4s" begin="0.3s" fill="freeze"/>
     <animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 
