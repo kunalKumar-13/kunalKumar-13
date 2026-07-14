@@ -51,20 +51,11 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="82%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kunalKumar-13&theme=tokyonight" alt="Kunal Kumar's GitHub profile summary"/>
+  <img width="86%" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/neofetch.svg" alt="kunal@github — profile terminal"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kunalKumar-13&theme=tokyonight" alt="Kunal Kumar's repositories per language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kunalKumar-13&theme=tokyonight" alt="Kunal Kumar's most committed languages"/>
-</div>
-
-<div align="center">
-  <img width="82%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kunalKumar-13&theme=tokyonight&utcOffset=5.5" alt="Kunal Kumar's most productive coding hours"/>
-</div>
-
-<div align="center">
-  <img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=kunalKumar-13&custom_title=Contribution%20Graph&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=c0caf5&area=true&area_color=bf91f3&title_color=bf91f3&hide_border=true" alt="Kunal Kumar's contribution graph"/>
+  <img width="86%" src="https://github-readme-activity-graph.vercel.app/graph?username=kunalKumar-13&custom_title=Contribution%20Graph&bg_color=0d1117&color=7aa2f7&line=bb9af7&point=e6edf3&area=true&area_color=bb9af7&title_color=7aa2f7&hide_border=true" alt="Kunal Kumar's contribution graph"/>
 </div>
 
 <br/>
