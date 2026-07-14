@@ -1,9 +1,9 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hey%20%F0%9F%91%8B%20I%20am%20Kunal%20Kumar!&section=header&animation=twinkling&fontAlign=50&fontAlignY=32&fontSize=52&desc=Full-Stack%20Developer%20%7C%20Building%20AI%20Apps%20and%20Agents&descAlignY=53&descSize=22"/>
-</p>
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/header.svg" alt="Kunal Kumar — Full-Stack & AI Engineer"/>
+</div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kunalKumar-13&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=kunalKumar-13&label=Profile%20views&color=7aa2f7&style=flat" alt="profile views"/>
 </p>
 
 <br/>
@@ -13,7 +13,7 @@
 - 🎓 CS student at **Scaler School of Technology** & **BITS Pilani**
 - 💼 Software Engineering Intern @ **Emergent (YC S24)**
 - 📍 Bengaluru, India
-- ⚡ I build **full-stack web apps** and **AI / LLM-powered tools & agents** — RAG, multi-agent systems, browser automation, and developer tooling
+- ⚡ Into **RAG systems, multi-agent pipelines, browser automation & developer tooling**
 - 🌱 Currently going deep on **System Design, DSA & applied AI**
 - 📫 Reach me at **kunalsain0324@gmail.com**
 
