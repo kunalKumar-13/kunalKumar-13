@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
   <style>
     .fg{fill:#e6edf3}.mut{fill:#7d8590}.acc{fill:#7aa2f7}.pur{fill:#bb9af7}
     text{dominant-baseline:middle}
   </style>
 
   <!-- window -->
-  <rect x="1" y="1" width="798" height="458" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="798" height="318" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
   <path d="M1 41 h798" stroke="#30363d" stroke-width="1.5"/>
   <circle cx="24" cy="21" r="6" fill="#ff5f56"/>
   <circle cx="44" cy="21" r="6" fill="#febc2e"/>
@@ -32,36 +32,9 @@
     <text x="196" y="250"><tspan class="pur">GitHub</tspan><tspan class="fg">      29 repos · 319 contributions in 2026</tspan></text>
   </g>
 
-  <!-- languages -->
-  <text x="28" y="296" font-size="14"><tspan class="acc" font-weight="700">Languages</tspan></text>
-  <path d="M124 296 h648" stroke="#30363d" stroke-width="1.5"/>
-
-  <g font-size="13">
-    <!-- row: name | track | fill(animated, base=full) | pct -->
-    <text x="28" y="324" class="fg">TypeScript</text>
-    <rect x="150" y="319" width="470" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="150" y="319" width="132" height="9" rx="4.5" fill="#3178c6"><animate attributeName="width" from="0" to="132" dur="1.1s" begin="0.1s" fill="freeze"/></rect>
-    <text x="636" y="324" class="mut">28%</text>
-
-    <text x="28" y="352" class="fg">JavaScript</text>
-    <rect x="150" y="347" width="470" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="150" y="347" width="113" height="9" rx="4.5" fill="#f1e05a"><animate attributeName="width" from="0" to="113" dur="1.1s" begin="0.2s" fill="freeze"/></rect>
-    <text x="636" y="352" class="mut">24%</text>
-
-    <text x="28" y="380" class="fg">Python</text>
-    <rect x="150" y="375" width="470" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="150" y="375" width="113" height="9" rx="4.5" fill="#3776ab"><animate attributeName="width" from="0" to="113" dur="1.1s" begin="0.3s" fill="freeze"/></rect>
-    <text x="636" y="380" class="mut">24%</text>
-
-    <text x="28" y="408" class="fg">HTML</text>
-    <rect x="150" y="403" width="470" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="150" y="403" width="57" height="9" rx="4.5" fill="#e34c26"><animate attributeName="width" from="0" to="57" dur="1.1s" begin="0.4s" fill="freeze"/></rect>
-    <text x="636" y="408" class="mut">12%</text>
-  </g>
-
   <!-- bottom prompt with blinking cursor -->
-  <text x="28" y="440" font-size="14"><tspan class="acc" font-weight="700">❯</tspan><tspan class="mut"> git commit -m "always shipping"</tspan></text>
-  <rect x="312" y="433" width="9" height="15" fill="#7aa2f7">
+  <text x="28" y="288" font-size="14"><tspan class="acc" font-weight="700">❯</tspan><tspan class="mut"> git commit -m "always shipping"</tspan></text>
+  <rect x="312" y="281" width="9" height="15" fill="#7aa2f7">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/>
   </rect>
 </svg>

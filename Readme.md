@@ -26,7 +26,10 @@
 
 ### Stack
 
-**Languages** &nbsp; `TypeScript` `Python` `Java` `C++` `SQL`  
+<div align="center">
+  <img width="86%" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/languages.svg" alt="Language distribution across Kunal's repositories"/>
+</div>
+
 **Frameworks** &nbsp; `React` `Next.js` `Node` `FastAPI` `LangChain`  
 **Data** &nbsp; `PostgreSQL` `Redis` `SQLite` `Qdrant`  
 **Tooling** &nbsp; `Docker` `Kubernetes` `Playwright` `Vercel` `Linux`
@@ -34,7 +37,7 @@
 ### GitHub
 
 <div align="center">
-  <img width="86%" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/neofetch.svg" alt="kunal@github — profile terminal"/>
+  <img width="86%" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/neofetch.svg?v=2" alt="kunal@github — profile terminal"/>
   <img width="86%" src="https://github-readme-activity-graph.vercel.app/graph?username=kunalKumar-13&custom_title=Contribution%20Graph&bg_color=0d1117&color=7aa2f7&line=bb9af7&point=e6edf3&area=true&area_color=bb9af7&title_color=7aa2f7&hide_border=true" alt="Kunal Kumar's contribution graph"/>
 </div>
 
