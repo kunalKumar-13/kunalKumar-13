@@ -52,5 +52,5 @@
 </div>
 
 <div align="center">
-  <img width="180" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/shinchan.svg" alt=""/>
+  <img width="100%" src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/bamboo.svg" alt=""/>
 </div>
