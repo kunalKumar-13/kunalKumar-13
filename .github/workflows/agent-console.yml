@@ -1,0 +1,55 @@
+name: Regenerate agent console
+
+on:
+  schedule:            # every 6 hours
+    - cron: "20 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/agent_console.py"
+      - ".github/workflows/agent-console.yml"
+
+# never let two runs race for the same commit
+concurrency:
+  group: agent-console
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render assets/agent-console.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/agent_console.py
+
+      - name: Commit if it changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # the timestamp alone changes every run; only commit real content changes
+          if git diff --quiet -- assets/agent-console.svg; then
+            echo "no change"; exit 0
+          fi
+          changed=$(git diff -U0 -- assets/agent-console.svg \
+                    | grep -E '^[+-]' | grep -v '^[+-][+-]' \
+                    | grep -vc 'regenerated ' || true)
+          if [ "$changed" -eq 0 ]; then
+            echo "timestamp-only change, skipping commit"
+            git checkout -- assets/agent-console.svg
+            exit 0
+          fi
+          git add assets/agent-console.svg
+          git commit -m "Refresh agent console"
+          git push
