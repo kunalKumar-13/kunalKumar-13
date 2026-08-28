@@ -1,34 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="210" viewBox="0 0 820 210" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
   <defs>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7aa2f7"/>
-      <stop offset="1" stop-color="#bb9af7"/>
+      <stop offset="0" stop-color="#7aa2f7">
+        <animate attributeName="stop-color" values="#7aa2f7;#bb9af7;#7aa2f7" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#bb9af7">
+        <animate attributeName="stop-color" values="#bb9af7;#7dcfff;#bb9af7" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <clipPath id="type"><rect x="46" y="120" width="464" height="30">
-      <animate attributeName="width" values="0;464" keyTimes="0;1" dur="2.4s" begin="0.3s" fill="freeze"/>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="type"><rect x="46" y="122" width="470" height="30">
+      <animate attributeName="width" values="0;470" keyTimes="0;1" dur="2.4s" begin="0.3s" fill="freeze"/>
     </rect></clipPath>
   </defs>
 
-  <!-- panel -->
-  <rect x="1" y="1" width="818" height="198" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="818" height="208" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- name (gradient) + growing underline -->
+  <!-- faint grid -->
+  <g stroke="#11161d" stroke-width="1">
+    <path d="M0 52h820M0 104h820M0 156h820"/>
+  </g>
+
   <text x="48" y="78" font-size="46" font-weight="800" fill="url(#name)" font-family="-apple-system,'Segoe UI',system-ui,sans-serif" letter-spacing="-1">Kunal Kumar</text>
-  <rect x="50" y="96" width="330" height="3" rx="1.5" fill="#7aa2f7">
-    <animate attributeName="width" values="0;330" dur="0.9s" begin="0.2s" fill="freeze"/>
+  <rect x="50" y="96" width="340" height="3" rx="1.5" fill="url(#rule)">
+    <animate attributeName="width" values="0;340" dur="0.9s" begin="0.2s" fill="freeze"/>
   </rect>
 
-  <!-- typewriter tagline (base = full so it shows even if animation is skipped) -->
-  <text x="50" y="140" font-size="19" fill="#a9b1d6" clip-path="url(#type)">Full-Stack Developer · AI &amp; LLM Engineer</text>
-  <rect x="506" y="123" width="10" height="23" fill="#7aa2f7">
-    <animate attributeName="x" values="50;506" keyTimes="0;1" dur="2.4s" begin="0.3s" fill="freeze"/>
+  <text x="50" y="142" font-size="18" fill="#a9b1d6" clip-path="url(#type)">AI agents · RAG systems · developer tooling</text>
+  <rect x="512" y="125" width="10" height="23" fill="#7aa2f7">
+    <animate attributeName="x" values="50;512" keyTimes="0;1" dur="2.4s" begin="0.3s" fill="freeze"/>
     <animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- location -->
-  <text x="50" y="174" font-size="13" fill="#565f89">Bengaluru, India</text>
+  <text x="50" y="180" font-size="12.5" fill="#565f89">SWE Intern @ Emergent (YC S24)  ·  Scaler School of Technology × BITS Pilani  ·  Bengaluru, India</text>
 
-  <!-- monogram echo (matches the stats card) -->
-  <rect x="694" y="54" width="92" height="92" rx="18" fill="none" stroke="#bb9af7" stroke-width="2"/>
-  <text x="740" y="106" text-anchor="middle" fill="#bb9af7" font-size="38" font-weight="700" letter-spacing="1">KK</text>
+  <rect x="694" y="59" width="92" height="92" rx="18" fill="none" stroke="#bb9af7" stroke-width="2"/>
+  <text x="740" y="111" text-anchor="middle" fill="#bb9af7" font-size="38" font-weight="700" letter-spacing="1">KK</text>
 </svg>

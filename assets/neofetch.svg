@@ -1,40 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="356" viewBox="0 0 800 356" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
   <style>
-    .fg{fill:#e6edf3}.mut{fill:#7d8590}.acc{fill:#7aa2f7}.pur{fill:#bb9af7}
+    .fg{fill:#e6edf3}.mut{fill:#7d8590}.acc{fill:#7aa2f7}.pur{fill:#bb9af7}.grn{fill:#9ece6a}
     text{dominant-baseline:middle}
   </style>
 
-  <!-- window -->
-  <rect x="1" y="1" width="798" height="318" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="798" height="354" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
   <path d="M1 41 h798" stroke="#30363d" stroke-width="1.5"/>
   <circle cx="24" cy="21" r="6" fill="#ff5f56"/>
   <circle cx="44" cy="21" r="6" fill="#febc2e"/>
   <circle cx="64" cy="21" r="6" fill="#28c840"/>
   <text x="400" y="22" text-anchor="middle" class="mut" font-size="13">kunal@github: ~/profile</text>
 
-  <!-- command echo -->
   <text x="28" y="68" font-size="13.5"><tspan class="acc">❯</tspan><tspan class="fg"> neofetch</tspan><tspan class="mut"> --profile</tspan></text>
 
-  <!-- monogram (no face, per request) -->
   <rect x="40" y="96" width="104" height="104" rx="20" fill="none" stroke="#bb9af7" stroke-width="2"/>
   <text x="92" y="150" text-anchor="middle" class="pur" font-size="42" font-weight="700" letter-spacing="1">KK</text>
   <text x="92" y="220" text-anchor="middle" class="mut" font-size="11.5">@kunalKumar-13</text>
 
-  <!-- identity block -->
-  <g font-size="14">
-    <text x="196" y="108"><tspan class="acc" font-weight="700">kunal</tspan><tspan class="mut">@</tspan><tspan class="acc" font-weight="700">github</tspan></text>
-    <path d="M196 122 h150" stroke="#30363d" stroke-width="1.5"/>
+  <g font-size="13.5">
+    <text x="196" y="106"><tspan class="acc" font-weight="700">kunal</tspan><tspan class="mut">@</tspan><tspan class="acc" font-weight="700">github</tspan></text>
+    <path d="M196 120 h150" stroke="#30363d" stroke-width="1.5"/>
 
-    <text x="196" y="146"><tspan class="pur">Role</tspan><tspan class="fg">        SWE Intern · Emergent (YC S24)</tspan></text>
-    <text x="196" y="172"><tspan class="pur">Focus</tspan><tspan class="fg">       Full-Stack · AI Agents · LLM tooling</tspan></text>
-    <text x="196" y="198"><tspan class="pur">Location</tspan><tspan class="fg">    Bengaluru, India</tspan></text>
-    <text x="196" y="224"><tspan class="pur">Uptime</tspan><tspan class="fg">      2 years, 3 months</tspan></text>
-    <text x="196" y="250"><tspan class="pur">GitHub</tspan><tspan class="fg">      29 repos · 319 contributions in 2026</tspan></text>
+    <text x="196" y="142"><tspan class="pur">Role</tspan><tspan class="fg">        SWE Intern · Emergent (YC S24)</tspan></text>
+    <text x="196" y="166"><tspan class="pur">Studying</tspan><tspan class="fg">    CS · Scaler School of Tech × BITS Pilani</tspan></text>
+    <text x="196" y="190"><tspan class="pur">Focus</tspan><tspan class="fg">       AI agents · RAG · full-stack · systems</tspan></text>
+    <text x="196" y="214"><tspan class="pur">Location</tspan><tspan class="fg">    Bengaluru, India</tspan></text>
+    <text x="196" y="238"><tspan class="pur">Uptime</tspan><tspan class="fg">      2 years, 4 months</tspan></text>
+    <text x="196" y="262"><tspan class="pur">Shipped</tspan><tspan class="fg">     30 repos · </tspan><tspan class="grn">619 contributions</tspan><tspan class="fg"> in 2026</tspan></text>
+    <text x="196" y="286"><tspan class="pur">Upstream</tspan><tspan class="fg">    PRs to Joplin · OSM iD · Plone · fortls</tspan></text>
   </g>
 
-  <!-- bottom prompt with blinking cursor -->
-  <text x="28" y="288" font-size="14"><tspan class="acc" font-weight="700">❯</tspan><tspan class="mut"> git commit -m "always shipping"</tspan></text>
-  <rect x="312" y="281" width="9" height="15" fill="#7aa2f7">
+  <text x="28" y="330" font-size="13.5"><tspan class="acc" font-weight="700">❯</tspan><tspan class="mut"> git commit -m "always shipping"</tspan></text>
+  <rect x="308" y="323" width="9" height="15" fill="#7aa2f7">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/>
   </rect>
 </svg>
