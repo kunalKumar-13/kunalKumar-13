@@ -127,56 +127,65 @@ PALETTE = {  # label, label colour, body colour
 
 
 def render(lines, stamp):
-    LH = 21               # line height
-    top = 92
-    body = [l for l in lines]
-    height = top + LH * len(body) + 58
-    W = 880
-    CYCLE = max(16.0, 1.1 * len([l for l in body if l[0] != "gap"]) + 6.0)
+    """Reveal the whole trace in under two seconds, then hold it.
 
-    out = []
-    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '
-               f'viewBox="0 0 {W} {height}" fill="none" '
-               f'font-family="\'JetBrains Mono\',\'SFMono-Regular\',ui-monospace,Menlo,Consolas,monospace">')
-    out.append(f'<rect x="1" y="1" width="{W-2}" height="{height-2}" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>')
-    # title bar
-    out.append(f'<path d="M1 42 h{W-2}" stroke="#30363d" stroke-width="1.5"/>')
-    for i, c in enumerate(("#ff5f56", "#febc2e", "#28c840")):
-        out.append(f'<circle cx="{24+i*20}" cy="21.5" r="6" fill="{c}"/>')
-    out.append(f'<text x="{W/2}" y="26" text-anchor="middle" fill="#7d8590" font-size="12.5">agent-console — observing @{USER}</text>')
+    The first cut staggered lines over a 20s loop, so a visitor met a mostly
+    empty terminal and had to wait 14s for a full trace that then wiped. The
+    trace now types in fast and freezes: whenever you arrive, you read it.
+    """
+    LH = 20
+    top = 80
+    STAGGER = 0.13          # whole trace lands in ~1.9s
+    REVEAL = 0.30
+    W = 880
 
     y = top
+    body = []
     step = 0.0
-    for kind, text in body:
+    for kind, text in lines:
         if kind == "gap":
-            y += LH
+            y += 11         # tighter than a full line
             continue
-        # reveal window inside the looping cycle
-        t0 = step / CYCLE
-        t1 = (step + 0.35) / CYCLE
-        anim = (f'<animate attributeName="opacity" values="0;0;1;1;0" '
-                f'keyTimes="0;{t0:.4f};{t1:.4f};0.94;1" dur="{CYCLE:.1f}s" repeatCount="indefinite"/>')
+        body.append((kind, text, y, step))
+        step += STAGGER
+        y += LH
+
+    prompt_y = y + 26
+    height = prompt_y + 24
+
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '
+           f'viewBox="0 0 {W} {height}" fill="none" '
+           f'font-family="\'JetBrains Mono\',\'SFMono-Regular\',ui-monospace,Menlo,Consolas,monospace">',
+           f'<rect x="1" y="1" width="{W-2}" height="{height-2}" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>',
+           f'<path d="M1 42 h{W-2}" stroke="#30363d" stroke-width="1.5"/>']
+    for i, c in enumerate(("#ff5f56", "#febc2e", "#28c840")):
+        out.append(f'<circle cx="{24+i*20}" cy="21.5" r="6" fill="{c}"/>')
+    out.append(f'<text x="{W/2}" y="26" text-anchor="middle" fill="#7d8590" font-size="12.5">'
+               f'agent-console — observing @{USER}</text>')
+
+    for kind, text, ly, begin in body:
+        anim = (f'<animate attributeName="opacity" from="0" to="1" begin="{begin:.2f}s" '
+                f'dur="{REVEAL}s" fill="freeze"/>')
         if kind == "cmd":
-            out.append(f'<text x="28" y="{y}" font-size="13.5" opacity="0">'
+            out.append(f'<text x="28" y="{ly}" font-size="13.5" opacity="0">'
                        f'<tspan fill="#7aa2f7" font-weight="700">❯</tspan>'
                        f'<tspan fill="#e6edf3"> {esc(text)}</tspan>{anim}</text>')
         else:
             label, lc, bc = PALETTE[kind]
-            out.append(f'<text x="28" y="{y}" font-size="13.5" xml:space="preserve" opacity="0">'
+            out.append(f'<text x="28" y="{ly}" font-size="13.5" xml:space="preserve" opacity="0">'
                        f'<tspan fill="{lc}" font-weight="700">{label}</tspan>'
                        f'<tspan fill="{bc}">  {esc(text)}</tspan>{anim}</text>')
-        step += 1.1
-        y += LH
 
-    # trailing prompt + cursor
-    py = y + 14
-    out.append(f'<path d="M28 {py-24} h{W-56}" stroke="#21262d" stroke-width="1"/>')
-    out.append(f'<text x="28" y="{py}" font-size="13.5">'
-               f'<tspan fill="#7aa2f7" font-weight="700">❯</tspan></text>')
-    out.append(f'<rect x="46" y="{py-11}" width="9" height="15" fill="#7aa2f7">'
-               f'<animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/></rect>')
-    out.append(f'<text x="{W-28}" y="{py}" text-anchor="end" font-size="11" fill="#565f89">'
-               f'regenerated {stamp} · every 6h</text>')
+    out.append(f'<path d="M28 {prompt_y-20} h{W-56}" stroke="#21262d" stroke-width="1"/>')
+    out.append(f'<text x="28" y="{prompt_y}" font-size="13.5" opacity="0">'
+               f'<tspan fill="#7aa2f7" font-weight="700">❯</tspan>'
+               f'<animate attributeName="opacity" from="0" to="1" begin="{step:.2f}s" dur="0.3s" fill="freeze"/></text>')
+    out.append(f'<rect x="46" y="{prompt_y-11}" width="9" height="15" fill="#7aa2f7" opacity="0">'
+               f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" '
+               f'dur="1.06s" begin="{step:.2f}s" repeatCount="indefinite"/></rect>')
+    out.append(f'<text x="{W-28}" y="{prompt_y}" text-anchor="end" font-size="11" fill="#565f89" opacity="0">'
+               f'regenerated {stamp} · every 6h'
+               f'<animate attributeName="opacity" from="0" to="1" begin="{step:.2f}s" dur="0.4s" fill="freeze"/></text>')
     out.append('</svg>')
     return "\n".join(out)
 
