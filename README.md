@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/hero.svg" width="100%" alt="Kunal Kumar — I build AI agents, RAG systems and developer tooling"/>
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/hero.svg?v=2" width="100%" alt="Kunal Kumar — I build AI agents, RAG systems and developer tooling"/>
 
 <a href="https://portfolio-wheat-seven-ojx94tfxx1.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/sainkunal"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
