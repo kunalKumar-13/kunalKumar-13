@@ -9,6 +9,7 @@ on:
     paths:
       - "scripts/agent_console.py"
       - "scripts/open_source.py"
+      - "scripts/stats.py"
       - ".github/workflows/agent-console.yml"
 
 # never let two runs race for the same commit
@@ -40,15 +41,28 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/open_source.py
 
+      - name: Render assets/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/stats.py
+
       - name: Commit if it changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # README first: the console's timestamp-only early exits below must
-          # not swallow a real change to the open-source table.
+          # not swallow a real change to the open-source table. Both
+          # open_source.py and stats.py write to it -- the table, and the
+          # stats image's alt text.
           if ! git diff --quiet -- README.md; then
             git add README.md
-            git commit -m "Refresh open-source table"
+            git commit -m "Refresh open-source table and stats alt text"
+            git push
+          fi
+          # stats.svg carries no timestamp, so any diff is a real one.
+          if ! git diff --quiet -- assets/stats.svg; then
+            git add assets/stats.svg
+            git commit -m "Refresh contribution stats"
             git push
           fi
           # the timestamp alone changes every run; only commit real content changes
