@@ -1,4 +1,4 @@
-name: Regenerate agent console
+name: Regenerate agent console and open-source table
 
 on:
   schedule:            # every 6 hours
@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "scripts/agent_console.py"
+      - "scripts/open_source.py"
       - ".github/workflows/agent-console.yml"
 
 # never let two runs race for the same commit
@@ -34,10 +35,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/agent_console.py
 
+      - name: Render the open-source table into README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/open_source.py
+
       - name: Commit if it changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # README first: the console's timestamp-only early exits below must
+          # not swallow a real change to the open-source table.
+          if ! git diff --quiet -- README.md; then
+            git add README.md
+            git commit -m "Refresh open-source table"
+            git push
+          fi
           # the timestamp alone changes every run; only commit real content changes
           if git diff --quiet -- assets/agent-console.svg; then
             echo "no change"; exit 0
