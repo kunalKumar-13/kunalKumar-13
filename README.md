@@ -136,10 +136,10 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 
 | Organisation | Merged | Open | Repositories |
 |---|---:|---:|---|
-| Sugar Labs | **[20](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Asugarlabs%20is%3Amerged)** | 6 | `musicblocks`, `sugar-toolkit-gtk4` |
+| Sugar Labs | **[20](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Asugarlabs%20is%3Amerged)** | 5 | `musicblocks`, `sugar-toolkit-gtk4` |
 | Plone | **[6](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Aplone%20is%3Amerged)** | 10 | `Products.CMFPlone`, `Products.PlonePAS`, `cookiecutter-zope-instance`, `meta` +8 |
 | Django | **[4](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Adjango%20is%3Amerged)** | 7 | `django`, `djangoproject.com` |
-| ZEUS | **[4](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3AZeusLN%20is%3Amerged)** | 1 | `zeus` |
+| ZEUS | **[4](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3AZeusLN%20is%3Amerged)** | 2 | `zeus` |
 | MetaBrainz | **[3](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Ametabrainz%20is%3Amerged)** | 3 | `listenbrainz-server` |
 | fortran-lang | **[2](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Afortran-lang%20is%3Amerged)** | 9 | `fortls`, `fpm`, `fprettify`, `setup-fpm` +3 |
 | OpenStreetMap | **[1](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Aopenstreetmap%20is%3Amerged)** | 0 | `iD` |
@@ -191,7 +191,7 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 
 # 📊 The receipts
 
-<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="935 contributions, 713 commits, 125 pull requests, 41 repositories in the last 12 months"/>
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="936 contributions, 713 commits, 126 pull requests, 41 repositories in the last 12 months"/>
 
 <img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/languages.svg?v=2" width="100%" alt="Python 51.3%, TypeScript 23.2%, JavaScript 11.1%, HTML 6.0%, CSS 3.2%"/>
 
