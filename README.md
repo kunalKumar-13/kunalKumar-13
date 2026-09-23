@@ -124,39 +124,6 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 
 <img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
 
-# 🌱 Upstream
-
-</div>
-
-<!-- OPEN-SOURCE:START -->
-
-## Open source
-
-**41 merged pull requests** across **7 organisations**, and 43 open across 12. Counting only repositories owned by a GitHub organisation, so personal projects do not inflate the number. Every row links to the search behind it.
-
-| Organisation | Merged | Open | Repositories |
-|---|---:|---:|---|
-| Sugar Labs | **[21](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Asugarlabs%20is%3Amerged)** | 5 | `musicblocks`, `sugar-toolkit-gtk4` |
-| Plone | **[6](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Aplone%20is%3Amerged)** | 10 | `Products.CMFPlone`, `Products.PlonePAS`, `cookiecutter-zope-instance`, `meta` +8 |
-| Django | **[4](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Adjango%20is%3Amerged)** | 7 | `django`, `djangoproject.com` |
-| ZEUS | **[4](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3AZeusLN%20is%3Amerged)** | 2 | `zeus` |
-| MetaBrainz | **[3](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Ametabrainz%20is%3Amerged)** | 3 | `listenbrainz-server` |
-| fortran-lang | **[2](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Afortran-lang%20is%3Amerged)** | 9 | `fortls`, `fpm`, `fprettify`, `setup-fpm` +3 |
-| OpenStreetMap | **[1](https://github.com/pulls?q=is%3Apr%20author%3AkunalKumar-13%20org%3Aopenstreetmap%20is%3Amerged)** | 0 | `iD` |
-| DIPY | 0 | 1 | `dipy` |
-| Matplotlib | 0 | 1 | `matplotlib` |
-| Meshery | 0 | 2 | `meshery` |
-| OWASP | 0 | 2 | `OpenCRE` |
-| urunc | 0 | 1 | `urunc` |
-
-<sub>Regenerated from the GitHub API - see [the generator](https://github.com/kunalKumar-13/kunalKumar-13/blob/main/scripts/open_source.py).</sub>
-
-<!-- OPEN-SOURCE:END -->
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
-
 # 🧰 Toolkit
 
 **Daily**

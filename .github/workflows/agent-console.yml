@@ -1,4 +1,4 @@
-name: Regenerate agent console and open-source table
+name: Regenerate agent console and stats
 
 on:
   schedule:            # every 6 hours
@@ -8,7 +8,6 @@ on:
     branches: [main]
     paths:
       - "scripts/agent_console.py"
-      - "scripts/open_source.py"
       - "scripts/stats.py"
       - ".github/workflows/agent-console.yml"
 
@@ -36,11 +35,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/agent_console.py
 
-      - name: Render the open-source table into README.md
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/open_source.py
-
       - name: Render assets/stats.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -51,12 +45,11 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # README first: the console's timestamp-only early exits below must
-          # not swallow a real change to the open-source table. Both
-          # open_source.py and stats.py write to it -- the table, and the
-          # stats image's alt text.
+          # not swallow a real change. stats.py writes the stats image's
+          # alt text into README.md.
           if ! git diff --quiet -- README.md; then
             git add README.md
-            git commit -m "Refresh open-source table and stats alt text"
+            git commit -m "Refresh stats alt text"
             git push
           fi
           # stats.svg carries no timestamp, so any diff is a real one.
