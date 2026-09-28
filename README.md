@@ -158,7 +158,7 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 
 # 📊 The receipts
 
-<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="1286 contributions, 1017 commits, 150 pull requests, 42 repositories in the last 12 months"/>
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="1290 contributions, 1021 commits, 150 pull requests, 42 repositories in the last 12 months"/>
 
 <img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/languages.svg?v=2" width="100%" alt="Python 51.3%, TypeScript 23.2%, JavaScript 11.1%, HTML 6.0%, CSS 3.2%"/>
 
