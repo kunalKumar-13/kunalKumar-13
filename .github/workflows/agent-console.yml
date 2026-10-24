@@ -9,6 +9,7 @@ on:
     paths:
       - "scripts/agent_console.py"
       - "scripts/stats.py"
+      - "scripts/open_source.mjs"
       - ".github/workflows/agent-console.yml"
 
 # never let two runs race for the same commit
@@ -40,8 +41,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/stats.py
 
+      - name: Refresh the open-source counts in README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/open_source.mjs
+
       - name: Commit if it changed
         run: |
+          if ! git diff --quiet -- README.md; then
+            git add README.md
+            git commit -m "Refresh open-source counts"
+            git push
+          fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # README first: the console's timestamp-only early exits below must

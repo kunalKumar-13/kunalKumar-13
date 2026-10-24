@@ -11,6 +11,28 @@
 
 </div>
 
+# 🌱 Open source
+
+I'm a **Reviewer for [Music Blocks](https://github.com/sugarlabs/musicblocks)** at Sugar Labs, listed in its [MAINTAINERS.md](https://github.com/sugarlabs/musicblocks/blob/master/MAINTAINERS.md) for Blocks & Runtime and for Release, Security & Infrastructure.
+
+<!-- open-source:start -->
+**57 merged pull requests** upstream: Sugar Labs 28 · Plone 10 · Zeus 6 · fortran-lang 5 · Django 4 · MetaBrainz 3 · OpenStreetMap 1. And **43 pull requests reviewed** on Music Blocks.
+<!-- open-source:end -->
+
+| Where | Some of the work |
+|---|---|
+| Music Blocks · release | release-please now bumps the `VERSION` constant it didn't know about, with a test that keeps them in step ([#8870](https://github.com/sugarlabs/musicblocks/pull/8870)); Pages publishes master as `-dev+<sha>` ([#9052](https://github.com/sugarlabs/musicblocks/pull/9052)); a timeout on every job and explicit permissions on every workflow ([#8638](https://github.com/sugarlabs/musicblocks/pull/8638)) |
+| Music Blocks · Planet | Load More fetched page one again instead of the next page ([#9071](https://github.com/sugarlabs/musicblocks/pull/9071)); My Projects refetched every owned project on each load ([#9285](https://github.com/sugarlabs/musicblocks/pull/9285)) |
+| Django | a transform over an annotation alias in `values()` read the wrong field or crashed ([#21922](https://github.com/django/django/pull/21922), open, release blocker) |
+| Zeus | keychain recovery groups orphaned data by key and restores one copy each ([#4774](https://github.com/ZeusLN/zeus/pull/4774)) |
+| fortran-lang | `set_environment_variable` / `delete_environment_variable` in stdlib ([#1208](https://github.com/fortran-lang/stdlib/pull/1208)); setup-fpm builds from source on Linux ARM64 ([#61](https://github.com/fortran-lang/setup-fpm/pull/61)) |
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
+
+</div>
+
 I build agents. So rather than tell you what I've been up to, I pointed one at my own account and let it find out.
 
 <div align="center">
