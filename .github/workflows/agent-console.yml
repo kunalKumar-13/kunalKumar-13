@@ -48,19 +48,14 @@ jobs:
 
       - name: Commit if it changed
         run: |
-          if ! git diff --quiet -- README.md; then
-            git add README.md
-            git commit -m "Refresh open-source counts"
-            git push
-          fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # README first: the console's timestamp-only early exits below must
           # not swallow a real change. stats.py writes the stats image's
-          # alt text into README.md.
+          # alt text into README.md, and open_source.mjs the open-source counts.
           if ! git diff --quiet -- README.md; then
             git add README.md
-            git commit -m "Refresh stats alt text"
+            git commit -m "Refresh README counts"
             git push
           fi
           # stats.svg carries no timestamp, so any diff is a real one.
