@@ -16,7 +16,7 @@
 I'm a **Reviewer for [Music Blocks](https://github.com/sugarlabs/musicblocks)** at Sugar Labs, listed in its [MAINTAINERS.md](https://github.com/sugarlabs/musicblocks/blob/master/MAINTAINERS.md) for Blocks & Runtime and for Release, Security & Infrastructure.
 
 <!-- open-source:start -->
-**58 merged pull requests** upstream: Sugar Labs 29 · Plone 10 · Zeus 6 · fortran-lang 5 · Django 4 · MetaBrainz 3 · OpenStreetMap 1. And **45 pull requests reviewed** on Music Blocks.
+**60 merged pull requests** upstream: Sugar Labs 29 · Plone 10 · Zeus 8 · fortran-lang 5 · Django 4 · MetaBrainz 3 · OpenStreetMap 1. And **46 pull requests reviewed** on Music Blocks.
 <!-- open-source:end -->
 
 | Where | Some of the work |
@@ -180,7 +180,7 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 
 # 📊 The receipts
 
-<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="1386 contributions, 1076 commits, 159 pull requests, 47 repositories in the last 12 months"/>
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="1389 contributions, 1078 commits, 160 pull requests, 47 repositories in the last 12 months"/>
 
 <img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/languages.svg?v=2" width="100%" alt="Python 51.3%, TypeScript 23.2%, JavaScript 11.1%, HTML 6.0%, CSS 3.2%"/>
 
