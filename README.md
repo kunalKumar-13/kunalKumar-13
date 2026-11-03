@@ -13,7 +13,7 @@
 
 # 🌱 Open source
 
-I'm a **Reviewer for [Music Blocks](https://github.com/sugarlabs/musicblocks)** at Sugar Labs, listed in its [MAINTAINERS.md](https://github.com/sugarlabs/musicblocks/blob/master/MAINTAINERS.md) for Blocks & Runtime and for Release, Security & Infrastructure.
+I'm the **Area Approver for Release, Security & Infrastructure** at [Music Blocks](https://github.com/sugarlabs/musicblocks) (Sugar Labs), and a Reviewer for Blocks & Runtime, as listed in its [MAINTAINERS.md](https://github.com/sugarlabs/musicblocks/blob/master/MAINTAINERS.md).
 
 <!-- open-source:start -->
 **69 merged pull requests** upstream: Sugar Labs 36 · Plone 11 · Zeus 8 · fortran-lang 6 · Django 4 · MetaBrainz 3 · OpenStreetMap 1. And **51 pull requests reviewed** on Music Blocks.
