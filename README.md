@@ -21,9 +21,10 @@ I'm the **Area Approver for Release, Security & Infrastructure** at [Music Block
 
 | Where | Some of the work |
 |---|---|
-| Music Blocks · release | release-please now bumps the `VERSION` constant it didn't know about, with a test that keeps them in step ([#8870](https://github.com/sugarlabs/musicblocks/pull/8870)); Pages publishes master as `-dev+<sha>` ([#9052](https://github.com/sugarlabs/musicblocks/pull/9052)); a timeout on every job and explicit permissions on every workflow ([#8638](https://github.com/sugarlabs/musicblocks/pull/8638)) |
+| Music Blocks · release | release-please now bumps the `VERSION` constant it didn't know about, with a test that keeps them in step ([#8870](https://github.com/sugarlabs/musicblocks/pull/8870)); Pages publishes master as `-dev+<sha>` ([#9052](https://github.com/sugarlabs/musicblocks/pull/9052)); a timeout on every job and explicit permissions on every workflow ([#8638](https://github.com/sugarlabs/musicblocks/pull/8638)); releases no longer fail when the notes pass GitHub's 125k limit ([#9866](https://github.com/sugarlabs/musicblocks/pull/9866)); the container image is built and smoke-tested in CI ([#8718](https://github.com/sugarlabs/musicblocks/pull/8718)) |
+| Music Blocks · infra | the service worker had never registered in production; it now does, and serves the page network-first ([#9955](https://github.com/sugarlabs/musicblocks/pull/9955)); fixed CI for every PR after two dependency updates broke the lockfile ([#9956](https://github.com/sugarlabs/musicblocks/pull/9956)) |
 | Music Blocks · Planet | Load More fetched page one again instead of the next page ([#9071](https://github.com/sugarlabs/musicblocks/pull/9071)); My Projects refetched every owned project on each load ([#9285](https://github.com/sugarlabs/musicblocks/pull/9285)) |
-| Django | a transform over an annotation alias in `values()` read the wrong field or crashed ([#21922](https://github.com/django/django/pull/21922), open, release blocker) |
+| Django | a transform over an annotation alias in `values()` read the wrong field or crashed ([#21922](https://github.com/django/django/pull/21922), a release blocker) |
 | Zeus | keychain recovery groups orphaned data by key and restores one copy each ([#4774](https://github.com/ZeusLN/zeus/pull/4774)) |
 | fortran-lang | `set_environment_variable` / `delete_environment_variable` in stdlib ([#1208](https://github.com/fortran-lang/stdlib/pull/1208)); setup-fpm builds from source on Linux ARM64 ([#61](https://github.com/fortran-lang/setup-fpm/pull/61)) |
 
