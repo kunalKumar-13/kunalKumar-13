@@ -1,99 +1,191 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/header-light.svg">
-  <img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/header-light.svg" width="100%" alt="Kunal Kumar. Software engineer and open-source maintainer. Area Approver at Music Blocks (Sugar Labs); Computer Science at BITS Pilani.">
-</picture>
+<div align="center">
 
-I study Computer Science at BITS Pilani and write software for a living. This year I interned at Emergent (YC S24), Pronto and Ostrius AI, and I help maintain [Music Blocks](https://github.com/sugarlabs/musicblocks), the music programming environment from Sugar Labs, where I look after releases, security and infrastructure.
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/hero.svg?v=2" width="100%" alt="Kunal Kumar. Software engineer and open-source maintainer. Area Approver for Release, Security and Infrastructure at Music Blocks (Sugar Labs). Experience: Pronto, Emergent (YC S24), Ostrius AI. Education: Computer Science, BITS Pilani."/>
 
-Most of what I build circles one question: how do you let software, AI included, act on its own without trusting it more than you can check?
+<a href="https://portfolio-wheat-seven-ojx94tfxx1.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/sainkunal"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:kunalsain0324@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://leetcode.com/u/sain_kunal13"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
 
-[Portfolio](https://portfolio-wheat-seven-ojx94tfxx1.vercel.app/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/sainkunal) &nbsp;·&nbsp; [Email](mailto:kunalsain0324@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/sain_kunal13)
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
 
-<br/>
+</div>
 
-## Experience
+# 🌱 Open source
 
-| Where | What I did | When |
-|:--|:--|:--|
-| **Pronto** | Software Engineering Intern. Rebuilt partner onboarding (V2) and the referral onboarding flow; worked through crash reports and fixed what they pointed to. | Aug&nbsp;–&nbsp;Sep&nbsp;2026 |
-| **Emergent** (YC S24) | Frontend Engineering Intern. Shipped 24+ production fixes to a React/TypeScript AI app builder, and built the partner-perks upgrade flow end to end. | Jun&nbsp;–&nbsp;Aug&nbsp;2026 |
-| **Ostrius AI** | Software Engineering Intern. Owned a full-stack application, including authentication, verification flows and input validation. | Apr&nbsp;–&nbsp;Jun&nbsp;2026 |
-| **BITS Pilani** | Teaching Assistant, Data Structures & Algorithms. Ran problem-solving sessions for 50+ students. | May&nbsp;–&nbsp;Jun&nbsp;2026 |
-
-<br/>
-
-## Open source
-
-I'm the **Area Approver for Release, Security & Infrastructure** at Music Blocks and a Reviewer for Blocks & Runtime, as listed in its [MAINTAINERS.md](https://github.com/sugarlabs/musicblocks/blob/master/MAINTAINERS.md). That means I review and merge changes to the release and CI pipeline of a tool children use in classrooms.
+I'm the **Area Approver for Release, Security & Infrastructure** at [Music Blocks](https://github.com/sugarlabs/musicblocks) (Sugar Labs), and a Reviewer for Blocks & Runtime, as listed in its [MAINTAINERS.md](https://github.com/sugarlabs/musicblocks/blob/master/MAINTAINERS.md).
 
 <!-- open-source:start -->
 **75 merged pull requests** upstream: Sugar Labs 36 · Plone 11 · Zeus 10 · fortran-lang 6 · MetaBrainz 6 · Django 5 · OpenStreetMap 1. And **56 pull requests reviewed** on Music Blocks.
 <!-- open-source:end -->
 
-| Project | A few of the changes |
-|:--|:--|
-| Music Blocks | Releases no longer fail when the notes pass GitHub's 125k-character limit ([#9866](https://github.com/sugarlabs/musicblocks/pull/9866)). The container image is built and smoke-tested in CI ([#8718](https://github.com/sugarlabs/musicblocks/pull/8718)). Every workflow has least-privilege permissions and a timeout ([#8638](https://github.com/sugarlabs/musicblocks/pull/8638)). The service worker had never registered in production; now it does, and serves pages network-first ([#9955](https://github.com/sugarlabs/musicblocks/pull/9955)). |
-| Django | A transform over an annotation alias in `values()` read the wrong field or crashed; a release blocker ([#21922](https://github.com/django/django/pull/21922)). |
-| Zeus | Keychain recovery groups orphaned data by key and restores one copy of each ([#4774](https://github.com/ZeusLN/zeus/pull/4774)). Slide-to-pay waits until the embedded Lightning node is ready to send ([#5776](https://github.com/ZeusLN/zeus/pull/5776)). |
-| ListenBrainz | Test coverage for the listen store, cover-art cache and email verification ([#3858](https://github.com/metabrainz/listenbrainz-server/pull/3858), [#3859](https://github.com/metabrainz/listenbrainz-server/pull/3859), [#3860](https://github.com/metabrainz/listenbrainz-server/pull/3860)). |
-| fortran-lang | Environment-variable setters in stdlib ([#1208](https://github.com/fortran-lang/stdlib/pull/1208)); setup-fpm builds from source on Linux ARM64 ([#61](https://github.com/fortran-lang/setup-fpm/pull/61)). |
+| Where | Some of the work |
+|---|---|
+| Music Blocks · release | release-please now bumps the `VERSION` constant it didn't know about, with a test that keeps them in step ([#8870](https://github.com/sugarlabs/musicblocks/pull/8870)); Pages publishes master as `-dev+<sha>` ([#9052](https://github.com/sugarlabs/musicblocks/pull/9052)); a timeout on every job and explicit permissions on every workflow ([#8638](https://github.com/sugarlabs/musicblocks/pull/8638)); releases no longer fail when the notes pass GitHub's 125k limit ([#9866](https://github.com/sugarlabs/musicblocks/pull/9866)); the container image is built and smoke-tested in CI ([#8718](https://github.com/sugarlabs/musicblocks/pull/8718)) |
+| Music Blocks · infra | the service worker had never registered in production; it now does, and serves the page network-first ([#9955](https://github.com/sugarlabs/musicblocks/pull/9955)); fixed CI for every PR after two dependency updates broke the lockfile ([#9956](https://github.com/sugarlabs/musicblocks/pull/9956)) |
+| Music Blocks · Planet | Load More fetched page one again instead of the next page ([#9071](https://github.com/sugarlabs/musicblocks/pull/9071)); My Projects refetched every owned project on each load ([#9285](https://github.com/sugarlabs/musicblocks/pull/9285)) |
+| Django | a transform over an annotation alias in `values()` read the wrong field or crashed ([#21922](https://github.com/django/django/pull/21922), a release blocker) |
+| Zeus | keychain recovery groups orphaned data by key and restores one copy each ([#4774](https://github.com/ZeusLN/zeus/pull/4774)) |
+| fortran-lang | `set_environment_variable` / `delete_environment_variable` in stdlib ([#1208](https://github.com/fortran-lang/stdlib/pull/1208)); setup-fpm builds from source on Linux ARM64 ([#61](https://github.com/fortran-lang/setup-fpm/pull/61)) |
 
-<br/>
+<div align="center">
 
-## Selected projects
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
 
-| Project | What it is | Built with |
-|:--|:--|:--|
-| **[Attest](https://github.com/kunalKumar-13/attest)** | Checks AI-proposed actions before they change financial records. An LLM suggests which orders explain a bank settlement; an independent verifier re-derives the answer without reading the suggestion, and only proven results are posted. On 500 held-out settlements: proof precision 0.952 and no wrong postings. The LLM was right in 27 of 63 hard cases, so its output is treated as a hint, never as evidence. | Python, Rust |
-| **[Recall](https://github.com/kunalKumar-13/Recall-me)** | A local-first continuity OS. One keystroke brings back the tabs, files and chats you had open. No accounts, no cloud, no telemetry. [Live](https://web-seven-puce-99.vercel.app) | Python, TypeScript |
-| **[Typeahead](https://github.com/kunalKumar-13/typeahead)** | Autocomplete over 120k real queries: an in-memory trie, three Redis nodes on a consistent-hash ring, and batched writes behind a write-ahead log. | Python, Redis |
-| **[Support Triage](https://github.com/kunalKumar-13/deterministic-support-triage)** | Ticket triage where code owns the control flow and the LLM is a constrained analyst. Policy decides escalation, not the model. | Python |
-| **[Web Agent](https://github.com/kunalKumar-13/Web-Agent)** | Perceive, decide, act: finds the right form out of nine by role matching instead of hardcoded selectors. | TypeScript, Playwright |
-| **[PDFChat](https://github.com/kunalKumar-13/PDF-Reviewer)** | Page-cited answers from a PDF, or an honest refusal when the document doesn't say. [Live](https://pdf-reviewer-ten.vercel.app) | Python, FastAPI |
+</div>
+
+I build agents. So rather than tell you what I've been up to, I pointed one at my own account and let it find out.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/agent-console.svg" width="100%" alt="An agent trace observing @kunalKumar-13: commits this week, open upstream pull requests, and what is currently being built"/>
+
+<sub>Not a screenshot. A GitHub Action re-runs the trace every 6 hours against the live API —<br/>
+every number in it was true when you loaded this page. &nbsp;<a href="https://github.com/kunalKumar-13/kunalKumar-13/blob/main/scripts/agent_console.py">read the generator ↗</a></sub>
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
+
+# 🚀 Featured work
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧾 [Attest](https://github.com/kunalKumar-13/attest)
+
+Financial reconciliation that **refuses to invent certainty**. 250 settlements, a Rust solver kernel, and the 197 it can't prove are the output — not a footnote.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [Recall](https://github.com/kunalKumar-13/Recall-me)
+
+A local-first **continuity OS**. One keystroke brings back the tabs, files and chats you had open. No accounts, no cloud, no telemetry.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[![Live](https://img.shields.io/badge/▶_live-00C853?style=flat-square)](https://web-seven-puce-99.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔎 [Typeahead](https://github.com/kunalKumar-13/typeahead)
+
+Autocomplete over **120k real queries** — an in-memory trie, three Redis nodes on a consistent-hash ring, batched writes behind a WAL.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🕹️ [Web Agent](https://github.com/kunalKumar-13/Web-Agent)
+
+*perceive → decide → act*. Finds the right form out of nine by **role matching**, not hardcoded selectors.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ [Support Triage](https://github.com/kunalKumar-13/deterministic-support-triage)
+
+Ticket triage where **code owns the control flow** and the LLM is a constrained analyst inside a sentinel block. Policy decides escalation, not the model.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Adversarially robust](https://img.shields.io/badge/adversarially_robust-BB9AF7?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 📄 [PDFChat](https://github.com/kunalKumar-13/PDF-Reviewer)
+
+Ask a PDF anything, get **page-cited** answers — or an honest refusal when the document doesn't say.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+[![Live](https://img.shields.io/badge/▶_live-00C853?style=flat-square)](https://pdf-reviewer-ten.vercel.app)
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary>Other projects</summary>
+<summary><b>&nbsp;📦 Twelve more — games, dashboards, a chat app, an HTTP server</b></summary>
 
 <br/>
 
-[Forge AI](https://github.com/kunalKumar-13/Video-AI), a LangGraph pipeline from story to storyboard ·
-[NotebookLM](https://github.com/kunalKumar-13/NotebookLM), RAG over PDFs and CSVs ·
-[StudyGenie](https://github.com/kunalKumar-13/StudyGenie), a study assistant that skips retrieval when it isn't needed ·
-[HTTP Server](https://github.com/kunalKumar-13/multi-threaded-http-server), HTTP/1.1 on raw sockets ·
-[Ride Sharing API](https://github.com/kunalKumar-13/rideSharingApp), Spring Boot with JWT ·
-[Minutes](https://github.com/kunalKumar-13/minutes), meeting notes with full-text search ·
-[Finovo](https://github.com/kunalKumar-13/Finovo-Finance), a multi-currency finance dashboard ·
-[Yapster](https://github.com/kunalKumar-13/yapster), real-time chat on Socket.IO ·
-[DevStash](https://github.com/kunalKumar-13/Devstash), a snippet manager ·
-[Island Adventure](https://github.com/kunalKumar-13/Game-Dev), a canvas RPG
+| Project | What it is | Live |
+|---|---|:---:|
+| 🎬 **[Forge AI](https://github.com/kunalKumar-13/Video-AI)** | LangGraph multi-agent pipeline: one story → script, scene plan, storyboard | |
+| 📓 **[NotebookLM](https://github.com/kunalKumar-13/NotebookLM)** | RAG workspace over your PDFs and CSVs | |
+| 📚 **[StudyGenie](https://github.com/kunalKumar-13/StudyGenie)** | FAISS study assistant that skips retrieval when it isn't needed | |
+| 🌐 **[HTTP Server](https://github.com/kunalKumar-13/multi-threaded-http-server)** | HTTP/1.1 from scratch on raw sockets, thread-pooled | |
+| 🚗 **[Ride Sharing API](https://github.com/kunalKumar-13/rideSharingApp)** | Spring Boot, JWT, role-scoped routes | |
+| 🎙️ **[Minutes](https://github.com/kunalKumar-13/minutes)** | Meeting workspace: transcripts, summaries, FTS5 search | |
+| 🔥 **[Fireflies Clone](https://github.com/kunalKumar-13/FireFlies.ai)** | Dashboard + API + marketing mirror | [↗](https://fireflies-clone-chi.vercel.app) |
+| 💰 **[Finovo](https://github.com/kunalKumar-13/Finovo-Finance)** | Multi-currency finance dashboard | [↗](https://finovo-finance.vercel.app) |
+| 📊 **[Review](https://github.com/kunalKumar-13/Review)** | Animated GitHub profile reviewer with PDF export | [↗](https://github-proflie-review.vercel.app) |
+| 💬 **[Yapster](https://github.com/kunalKumar-13/yapster)** | Real-time chat on Socket.IO | [↗](https://full-stack-project-azure.vercel.app) |
+| 🗂️ **[DevStash](https://github.com/kunalKumar-13/Devstash)** | Snippet manager with Monaco | |
+| 🏝️ **[Island Adventure](https://github.com/kunalKumar-13/Game-Dev)** | Canvas RPG with ERC-721 characters | [↗](https://game-dev-cyan.vercel.app) |
 
 </details>
 
-<br/>
-
-## Recognition
-
-- **Activate AI Fellow**, one of 15 selected from 500+ applicants
-- **Ethereum Scholar Fellow**, inaugural cohort
-- **Delegate**, Harvard Project for Asian and International Relations (HPAIR) 2026
-- **Vice President**, Open Source Club: contributor onboarding and first upstream pull requests
-
-<br/>
-
-## Tools
-
-| Area | Tools |
-|:--|:--|
-| Languages | Python, TypeScript and JavaScript daily; Rust, Java, C++, Go, SQL |
-| Backend | FastAPI, Node.js, PostgreSQL, Redis |
-| Frontend | React, Next.js |
-| AI | PyTorch, FAISS, LlamaIndex, OR-Tools |
-| Infrastructure | Docker, Kubernetes, GitHub Actions, Linux |
-
-<br/>
-
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
+
+# 🧰 Toolkit
+
+**Daily**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**Comfortable in**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+**Reaching for next**
+
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-BB9AF7?style=for-the-badge&logo=qdrant&logoColor=black)
+
+<sub>Rust is not on the daily list yet — I'm learning it by writing Attest's solver kernel.</sub>
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
+
+# 📊 The receipts
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/stats.svg?v=3" width="100%" alt="1434 contributions, 1105 commits, 167 pull requests, 48 repositories in the last 12 months"/>
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/languages.svg?v=2" width="100%" alt="Python 51.3%, TypeScript 23.2%, JavaScript 11.1%, HTML 6.0%, CSS 3.2%"/>
+
+<img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
 
 ### 👾 and pac-man eats the rest
 
