@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-label="Kunal Kumar. Software engineer and open-source maintainer. Area Approver at Music Blocks (Sugar Labs); B.Sc. (Hons.) Computer Science, BITS Pilani.">
+  <style>
+    .serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif; }
+    .sans  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  </style>
+  <text x="0" y="30" class="sans" font-size="11" letter-spacing="2.6" fill="#9a4b2e">SOFTWARE ENGINEER  ·  OPEN-SOURCE MAINTAINER</text>
+  <text x="-2" y="88" class="serif" font-size="54" fill="#1f2328">Kunal Kumar</text>
+  <text x="0" y="124" class="serif" font-size="18" font-style="italic" fill="#59636e">I build systems that act on what they can prove, and stop where they can't.</text>
+  <rect x="0" y="152" width="880" height="1" fill="#d1d9e0"/>
+  <rect x="0" y="151" width="56" height="3" fill="#9a4b2e"/>
+  <text x="0" y="182" class="sans" font-size="10" letter-spacing="2" fill="#59636e">NOW</text>
+  <text x="0" y="203" class="sans" font-size="13.5" fill="#1f2328">Area Approver, Music Blocks · Sugar Labs</text>
+  <text x="330" y="182" class="sans" font-size="10" letter-spacing="2" fill="#59636e">STUDYING</text>
+  <text x="330" y="203" class="sans" font-size="13.5" fill="#1f2328">Computer Science · BITS Pilani</text>
+  <text x="640" y="182" class="sans" font-size="10" letter-spacing="2" fill="#59636e">BASED IN</text>
+  <text x="640" y="203" class="sans" font-size="13.5" fill="#1f2328">India · open to remote work</text>
+</svg>
