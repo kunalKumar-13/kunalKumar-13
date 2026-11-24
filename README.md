@@ -53,12 +53,12 @@ every number in it was true when you loaded this page. &nbsp;<a href="https://gi
 <tr>
 <td width="50%" valign="top">
 
-### 🧾 [Attest](https://github.com/kunalKumar-13/attest)
+### 🎬 [Forge AI](https://github.com/kunalKumar-13/Video-AI)
 
-Financial reconciliation that **refuses to invent certainty**. 250 settlements, a Rust solver kernel, and the 197 it can't prove are the output — not a footnote.
+A **LangGraph multi-agent pipeline**: one story string becomes a script, a director's scene plan and an AI-generated storyboard.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -122,13 +122,12 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 </table>
 
 <details>
-<summary><b>&nbsp;📦 Twelve more — games, dashboards, a chat app, an HTTP server</b></summary>
+<summary><b>&nbsp;📦 Eleven more — games, dashboards, a chat app, an HTTP server</b></summary>
 
 <br/>
 
 | Project | What it is | Live |
 |---|---|:---:|
-| 🎬 **[Forge AI](https://github.com/kunalKumar-13/Video-AI)** | LangGraph multi-agent pipeline: one story → script, scene plan, storyboard | |
 | 📓 **[NotebookLM](https://github.com/kunalKumar-13/NotebookLM)** | RAG workspace over your PDFs and CSVs | |
 | 📚 **[StudyGenie](https://github.com/kunalKumar-13/StudyGenie)** | FAISS study assistant that skips retrieval when it isn't needed | |
 | 🌐 **[HTTP Server](https://github.com/kunalKumar-13/multi-threaded-http-server)** | HTTP/1.1 from scratch on raw sockets, thread-pooled | |
@@ -174,8 +173,6 @@ Ask a PDF anything, get **page-cited** answers — or an honest refusal when the
 ![Rust](https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-BB9AF7?style=for-the-badge&logo=qdrant&logoColor=black)
-
-<sub>Rust is not on the daily list yet — I'm learning it by writing Attest's solver kernel.</sub>
 
 <img src="https://raw.githubusercontent.com/kunalKumar-13/kunalKumar-13/main/assets/divider.svg" width="100%" alt=""/>
 
